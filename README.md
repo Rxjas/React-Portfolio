@@ -10,6 +10,7 @@ N/A
 * About Me 
 * Projects / Works
 * Contact Me page
+* Safe to host
 * Email me when someone wants to contact me
 
 ## Maybes
