@@ -1,0 +1,17 @@
+{
+  "name": "rxjas-portf",
+  "version": "1.0.0",
+  "description": "Packages for personal site",
+  "main": "index.js",
+  "repository": "https://github.com/Rxjas/React-Portfolio.git",
+  "author": "rxjas <christopherrojas35@yahoo.com>",
+  "license": "MIT",
+  "private": true,
+  "dependencies": {
+    "express": "^4.17.1",
+    "mongoose": "^5.11.15"
+  },
+  "devDependencies": {
+    "morgan": "^1.10.0"
+  }
+}
