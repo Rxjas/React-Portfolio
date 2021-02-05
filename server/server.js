@@ -23,5 +23,5 @@ app.use(logger);
 
 //Letting us know if the server is listening emoji may cause issues
 app.listen(PORT, () => {
-    console.log('😤👌 App Running on PORT: '+ PORT)
+    console.log('😤 👌 App Running on PORT: '+ PORT)
 });
