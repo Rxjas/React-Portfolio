@@ -3,7 +3,7 @@ const express = require('express');
 const path = require('path');
 const app = express();
 const logger = require('morgan');
-//require the DB connection
+require ('./config/db.js')();
 
 //Port default 3000 otherwise use the one assigned by heroku
 const PORT = process.env.PORT || 3001;
