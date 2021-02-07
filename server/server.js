@@ -8,7 +8,7 @@ require ('./config/db.js')();
 //Port default 3000 otherwise use the one assigned by heroku
 const PORT = process.env.PORT || 3001;
 
-//Middleware for parsing
+//Middleware for parsing data and use morgan logger
 app.use(express.urlencoded({ extended: true }));
 app.use(express.json());
 app.use(logger);
