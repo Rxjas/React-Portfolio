@@ -1,4 +1,4 @@
-//require mongoose
+//require mongoose to create the schema
 const mongoose = require('mongoose');
 
 const ContactSchema = new mongoose.Schema({
