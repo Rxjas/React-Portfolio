@@ -10,6 +10,7 @@ async function db () {
         });
         console.log('👾 Successfully connected to Database');
     }
+    //if there is any error then log it
     catch (err) {
         console.log('Error Connecting to DB 🚬')
         console.log(err);
