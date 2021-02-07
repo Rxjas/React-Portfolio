@@ -4,7 +4,7 @@ const { Contact } = require('../models');
 // /api/contact/
 router.route('/')
     .post((req, res) => {
-        // console.log(req.body);
+        console.log(req.body);
         Contact.create(req.body)
         .then(newContact => {
             console.log(newContact);
